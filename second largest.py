@@ -1,4 +1,5 @@
-#User function Template for python3
+#Second Largest in Python
+
 class Solution:
 
 	def print2largest(self,arr, n):
