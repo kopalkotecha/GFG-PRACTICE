@@ -1,0 +1,20 @@
+#Print the Pattern | Set - 1 in Python
+
+def printPat(N):
+    #Code here
+    for i in range(N, 0, -1):
+        for j in range(N, 0, -1):
+            for k in range(i):
+                print(j, end=' ')
+        print('$', end='')
+        if i == 1:  
+            print()  
+
+#{ 
+ # Driver Code Starts
+if __name__=='__main__':
+    t=int(input())
+    for i in range(t):
+        n= int(input())
+        printPat(n)
+# } Driver Code Ends
